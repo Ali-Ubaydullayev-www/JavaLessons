@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+ul, li{
+    list-style: none;
+
+}
+a{
+    color: blue;
+    text-decoration: none;
+    background-color: #fff;
+
+}
+
+header{
+    background-color: #f3f3f3;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.mainContent{
+    border: 5px solid red;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+    border-radius: 15px;
+
+}
+.mainContent>h1{
+    text-align: center;
+    margin-top: -23px;
+
+}
+.mainContent>h1>span{
+    background-color: #fff;
+    padding: 10px;
+
+}

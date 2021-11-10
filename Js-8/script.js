@@ -1,14 +1,14 @@
 /* *********** -- Example-1 -- ************** */
 
-fruits = ['apple', 'ananas', 'orange'];
-fruits = fruits.toString()
-a = 0;
-b = 0;
-for (let i = 0; i < fruits.length; i++) {
-    (fruits[i] == 'a' ||  fruits[i] == 'A') && a++;
-}
-console.log('b = ', b);
-console.log('a = ', a);
+// fruits = ['apple', 'ananas', 'orange'];
+// fruits = fruits.toString()
+// a = 0;
+// b = 0;
+// for (let i = 0; i < fruits.length; i++) {
+//     (fruits[i] == 'a' ||  fruits[i] == 'A') && a++;
+// }
+// console.log('b = ', b);
+// console.log('a = ', a);
 
 /* *********** -- Example-2 -- ************** */
 
@@ -19,7 +19,7 @@ console.log('a = ', a);
 //         result = result + number[i]
 //     }
 // }
-// console.log('oll result = ', result);
+// console.log('oll result = ', result)
 
 /* *********** -- Example-3 -- ************** */
 
@@ -41,14 +41,14 @@ console.log('a = ', a);
 
 /* *********** -- Example-5 -- ************** */
 
-// text = ['5', '4', '3', '2', '1']
-// texti = text.length
-// let result = [];
-// for (texti; texti > -1; texti--) {
-//     result.push(text[texti]) 
-// }
-// result.shift();
-// console.log(result);
+text = ['5', '4', '3', '2', '1']
+texti = text.length
+let result = [];
+for (texti; texti > -1; texti--) {
+    result.push(text[texti]) 
+}
+result.shift();
+console.log(result);
 
 /* *********** -- Example-6 -- ************** */
 
